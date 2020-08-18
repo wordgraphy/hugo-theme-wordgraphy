@@ -1,0 +1,156 @@
+/* OVERWRITING */
+
+/* buttons */
+
+button,
+.button,
+a.button {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: .782rem;
+}
+
+/* logo */
+
+.logo__text {
+    font-size: 1rem;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.logo__cursor {
+    background-image: url("https://tirelli.micro.blog/uploads/2020/65cd33c96b.jpg");
+    background-size: cover;
+    /* background: #666; */
+    animation: cursor 10s infinite;
+    width: 1rem;
+}
+
+
+/* menu */
+
+.menu{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: .782rem;
+}
+
+
+/* main */
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 500;
+    border: solid black .5rem;
+    background-color: white;
+    color: black;
+    line-height: 1.601536;
+}
+
+body.dark-theme {
+    border: solid white .5rem;
+    background-color: black;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    margin-top: 2.564576rem;
+    margin-bottom: 1.601536rem;
+}
+
+h1, .post-title {
+    font-size: 2.564576rem;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 1.601536rem;
+    text-transform: uppercase;
+    letter-spacing: -.5px;
+}
+
+h3 {
+    font-size: 1.601536rem;
+    letter-spacing: -1px;
+}
+
+h4 {
+    font-size: 1.39196rem;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 1.39196rem;
+    letter-spacing: -1px;
+}
+
+h6 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: square;
+}
+
+p.small {
+    font-size: 0.782rem;
+}
+
+.intro-text {
+    background-image: url("https://tirelli.micro.blog/uploads/2020/15c292d2ea.svg");
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position: top 1rem;
+    padding-left: 20%;
+    text-align: left;
+}
+
+body.dark-theme .intro-text {
+    background-image: url("https://tirelli.micro.blog/uploads/2020/37ac82119e.svg");
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position: top 1rem;
+}
+
+
+/* post */
+
+.post p {
+    margin-bottom: 1.601536rem;
+}
+
+.post {
+    padding-bottom: 2rem;
+}
+
+.post img, .post iframe {
+    border: solid black .5rem;
+}
+
+
+
+body.dark-theme .post img, body.dark-theme .post iframe {
+    border: solid white .5rem;
+}
+
+
+.post-meta {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: .782rem;
+}
+
+/* pagination */
+.pagination__title-h {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: .782rem;
+}
+
+/* footer */
+
+.footer__inner .logo__text, .footer__inner .logo__cursor, .footer, .footer span {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: .782rem;
+}
