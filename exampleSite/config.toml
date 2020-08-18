@@ -15,8 +15,8 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Guillermo Tirelli"
-    subtitle = "Author"
+    title = "wordgraphy"
+    subtitle = "a book project"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -30,12 +30,12 @@ paginate = 5
     dateFormatList = "02 Jan 2006"
 
     [languages.en.params.logo]
-      logoText = "Guillermo Tirelli"
+      logoText = "wordgraphy"
       logoHomeLink = "/"
     # or
     #
     # path = "/img/your-example-logo.svg"
-    # alt = "tirelli"
+    # alt = "wordgraphy"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
