@@ -104,12 +104,9 @@ p.small {
     border: solid black .5rem;
 }
 
-
-
 body.dark-theme .post img, body.dark-theme .post iframe {
     border: solid white .5rem;
 }
-
 
 .post-meta {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
@@ -128,6 +125,10 @@ body.dark-theme .post img, body.dark-theme .post iframe {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: .782rem;
 }
-.footer a:first-of-type, .media a:first-of-type {
+.media a:first-of-type {
     padding-right: 1rem;
+} 
+
+.media a {
+    color: transparent;
 } 
