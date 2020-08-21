@@ -37,6 +37,7 @@ body {
     background-color: white;
     color: black;
     line-height: 1.601536;
+    color: red;
 }
 
 body.dark-theme {
@@ -128,10 +129,10 @@ body.dark-theme .post img, body.dark-theme .post iframe {
 
 /* media */
 
-.media a:first-of-type {
+div.media p a:first-of-type {
     padding-right: 1rem !important;
 } 
 
-.media a {
+div.media p a {
     color: transparent !important;
 } 
