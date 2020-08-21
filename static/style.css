@@ -16,15 +16,6 @@ a.button {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
-.logo__cursor {
-    background-image: url("https://tirelli.micro.blog/uploads/2020/65cd33c96b.jpg");
-    background-size: cover;
-    /* background: #666; */
-    animation: cursor 10s infinite;
-    width: 1rem;
-}
-
-
 /* menu */
 
 .menu{
@@ -99,23 +90,6 @@ p.small {
     font-size: 0.782rem;
 }
 
-.intro-text {
-    background-image: url("https://tirelli.micro.blog/uploads/2020/15c292d2ea.svg");
-    background-repeat: no-repeat;
-    background-size: 12%;
-    background-position: top 1rem;
-    padding-left: 20%;
-    text-align: left;
-}
-
-body.dark-theme .intro-text {
-    background-image: url("https://tirelli.micro.blog/uploads/2020/37ac82119e.svg");
-    background-repeat: no-repeat;
-    background-size: 12%;
-    background-position: top 1rem;
-}
-
-
 /* post */
 
 .post p {
@@ -154,3 +128,6 @@ body.dark-theme .post img, body.dark-theme .post iframe {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: .782rem;
 }
+.footer a:first-of-type, .media a:first-of-type {
+    padding-right: 1rem;
+} 
