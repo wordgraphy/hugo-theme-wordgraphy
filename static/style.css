@@ -125,10 +125,13 @@ body.dark-theme .post img, body.dark-theme .post iframe {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: .782rem;
 }
+
+/* media */
+
 .media a:first-of-type {
-    padding-right: 1rem;
+    padding-right: 1rem !important;
 } 
 
 .media a {
-    color: transparent;
+    color: transparent !important;
 } 
